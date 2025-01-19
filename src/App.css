@@ -1,0 +1,139 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  background-color: ;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+:root {
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  /* text-align: center; */
+  height: 100%;
+
+  /* Theme colors */
+  --primary-color: #646cff;
+  --hover-color: #535bf2;
+  --secondary-color: #61dafb;
+  --background-color: #2e221e;
+  --card-background: #282a36;
+  --text-color: rgba(255, 255, 255, 0.87);
+  --muted-text-color: #888;
+}
+
+body {
+  background-image: url('img.jpg'); /* Set the background image */
+  background-size:cover;           /* Ensures the image covers the entire screen */
+  background-position: center;      /* Centers the image */
+  background-repeat: no-repeat;     /*  Prevents the image from repeating */
+  color: var(--text-color);
+  font-family: 'Inter', Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  text-align: center;
+  padding: 0 !important;
+  box-sizing: border-box;
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms ease, transform 300ms ease;
+  cursor: pointer;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em var(--primary-color));
+  transform: scale(1.1); /* Add a subtle zoom effect */
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em var(--secondary-color));
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  background-color: var(--card-background);
+  padding: 2rem;
+  margin: 1rem auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: var(--text-color);
+  max-width: 600px;
+  transition: transform 300ms ease, box-shadow 300ms ease;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.read-the-docs {
+  color: var(--muted-text-color);
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    height: 4em;
+  }
+
+  .card {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+}
