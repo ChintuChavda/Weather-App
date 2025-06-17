@@ -27,7 +27,7 @@ export default function Footer() {
                 }}
             >
                 <Typography variant="body2" sx={{ fontSize: { xs: '0.7rem', sm: '0.8rem' } }}>
-                    Developed by Deep Kardeni
+                    Developed by Chintu Chavda
                 </Typography>
             </Box>
         </Box>
