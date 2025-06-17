@@ -40,8 +40,8 @@ A sleek and user-friendly **Weather Application** that provides real-time weathe
 ---
 
 ## 📬 Contact
-📧 **Email**: [kardanideep1@gmail.com](mailto:kardanideep1@gmail.com)
-🔗 **GitHub**: [Kardanideep](https://github.com/yourusername)
+📧 **Email**: [chintuchavda1823@gmail.com](mailto:chintuchavda1823@gmail.com)
+🔗 **GitHub**: [ChintuChavda](https://github.com/ChintuChavda)
 
 ---
 
